@@ -3,13 +3,6 @@
 version = 3
 
 [[package]]
-name = "SolarSystem"
-version = "0.1.0"
-dependencies = [
- "bevy",
-]
-
-[[package]]
 name = "ab_glyph"
 version = "0.2.23"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -2981,6 +2974,13 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "e6845563ada680337a52d43bb0b29f396f2d911616f6573012645b9e3d048a49"
 dependencies = [
  "serde",
+]
+
+[[package]]
+name = "solar_system"
+version = "0.1.0"
+dependencies = [
+ "bevy",
 ]
 
 [[package]]
